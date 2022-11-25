@@ -23,6 +23,8 @@ panic-halt = "0.2.0"
 # Update `memory.x`, set target to `thumbv7em-none-eabihf` in `.cargo/config`,
 # and then use `cargo build --examples device` to build it.
 # [dependencies.stm32f3]
+stm32f4 = "0.15.1"
+features = ["stm32f411"]
 # features = ["stm32f303", "rt"]
 # version = "0.7.1"
 
